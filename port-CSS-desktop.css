@@ -1,0 +1,173 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* <!-- Navbar Starts form here --> */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    text-align: left;
+}
+
+.manu{
+    flex-direction: row;
+    justify-content: end;
+    /* margin: 25px 0; */
+    
+    
+}
+
+.manu a{
+    padding: 3px;
+    margin: 1px;
+    background-color: transparent;
+    /* font-size: 1.1rem; */
+    text-transform: uppercase;
+}
+
+.heading h1{
+    text-align: right;
+}
+
+/* <!-- Navbar Ends form here --> */
+
+
+
+/* <!-- profile Starts form here --> */
+
+
+.profile-description{
+    width: 60%;
+}
+
+.profile>img{
+    width: 12%;
+    
+}
+.bottom-img{
+  
+  top: 75%;
+    
+    
+}
+
+/* <!-- profile Ends form here --> */
+
+
+/* <!-- About Me starts from here --> */
+
+.about-me{
+    
+   margin-top: 30px;
+    
+  
+  }
+
+  .pic{
+   
+    margin-top: 20px;
+    /* border: 2px solid coral; */
+    padding: 40px;
+    
+   
+   
+}
+
+
+.my-details{
+ 
+    padding: 40px 0;
+    /* margin: 0 auto; */
+    /* border: rebeccapurple 1px solid; */
+  }
+
+  .my-details p{
+    text-align: left;
+   
+    
+  }
+
+  .long-hori{
+    
+    margin: 0px ;
+    
+}
+
+
+
+/* <!-- About Me Ends from here --> */
+
+
+
+/* <!-- Wrok Experies starts from here --> */
+
+ 
+.card{
+    
+    
+    height: 680px;
+   
+  }
+
+
+
+/* <!-- Wrok Experies Ends from here --> */
+
+
+
+
+/* <!-- achivement-contact Starts from here --> */
+
+.achivement,.contact, .contact-link{
+  height: 520px;
+}
+
+.link-description{
+  
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+  justify-content:center
+ }
+
+ .link-description a{
+  
+  margin: 10px 40px;
+ 
+  
+ }
+
+
+
+/* <!-- achivement-contact  Ends from here --> */
+
+
+/* Footer starts here */
+
+.footer-manu a{
+ 
+  font-size: .8rem;
+  display: inline-block;
+ 
+}
+
+.footer-description{
+  padding: 20px 0;
+}

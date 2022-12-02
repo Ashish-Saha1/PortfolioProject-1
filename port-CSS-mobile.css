@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.dotted-hori{
+    width: 10%;
+    margin: 10px auto;
+    border: dotted;
+    border-bottom: none;
+    color: white;
+}
+
+.long-hori{
+    width: 90%;
+    margin: 0px auto;
+    
+}
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+   
+    width: 100%;
+}
+
+/* <!-- Navbar Starts form here --> */
+
+.navbar{
+    background-color: #41868D;
+    padding: 1% 3%;
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+
+}
+
+.heading h1{
+    font-size: 2rem;
+    color: white;
+    
+
+}
+
+.manu{
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.manu a{
+    color: white;
+    text-decoration: none;
+    background-color: #2a747c;
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 4px 3px;
+    text-transform: capitalize;
+    
+}
+
+.manu a:hover{
+    background-color: rgb(75, 75, 75);
+}
+
+
+
+    .navbar::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* <!-- Navbar Ends form here --> */
+
+    /* <!-- Profile starts from here --> */
+
+    .profile>img{
+        width: 15%;
+        
+    }
+
+    
+
+    .profile{
+        padding: 130px 10px;
+        position: relative;
+    }
+
+    .profile::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    .profile-description{
+        width: 70%;
+        margin: 0 auto;
+       
+    }
+
+    .profile-description h1{
+        text-align: center;
+        line-height: 50px;
+        padding: 10px;
+        font-family: 'Satisfy', cursive;
+        font-size: 2.4rem;
+
+    }
+
+    .profile-description p{
+        text-align: center;
+        margin: 20px;
+        color: lightslategray;
+    }
+
+    .top-img{
+        position: absolute;
+        right: 10%;
+        top: 7%;
+        transition: ease 3s;
+    }
+
+    .bottom-img{
+        position: absolute;
+        left: 10%;
+        top: 80%;
+        transition: ease 3s;
+    }
+
+    .top-img:hover{
+        transform: rotate(360deg);
+        
+    }
+
+    .bottom-img:hover{
+        transform: rotate(360deg);
+        
+    }
+
+    .profile::after{
+        clear: both;
+        content: '';
+        display: table;
+    }
+    
+
+
+     /* <!-- Profile Ends from here --> */
+
+
+      /* <!-- About Me starts from here --> */
+
+      .about-me{
+        background-color: #39A1AD;
+        padding: 30px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        /* border: 5px solid saddlebrown; */
+        
+      }
+        .about-me h2{
+            text-align: center;
+        }
+
+        .pic{
+            width: 100%;
+            /* margin: 20px auto 5px auto; */
+            padding: 20px 60px;
+        }
+
+        .pic img{
+            width: 100%;
+            height: auto;
+            /* border: 2px solid coral; */
+            border-radius: 15px;
+            box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.3);
+        }
+
+      /* .pic img{
+        padding: 30px;
+        width: 100%;
+        margin: 0 auto;
+        
+      } */
+
+      .my-details{
+        width: 100%;
+        padding: 20px 30px;
+        /* margin: 0 auto; */
+        /* border: rebeccapurple 1px solid; */
+      }
+      .my-details p{
+        text-align: center;
+        padding: 12px ;
+        
+      }
+
+      .my-details p a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .btn{
+        padding: 15px;
+        margin: 15px;
+        border: none;
+        background-color: #062D31;
+        color: white;
+        font-size: .8rem;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+  
+
+      .about-me::after{
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* <!-- About Me Ends from here --> */
+
+
+      /* <!-- Wrok Experies starts from here --> */
+      
+     
+      .card{
+        padding: 30px 10px;
+        background-color: #A59D9F;
+        /* width: 100%; */
+        height: 600px;
+        margin: 0 3px;
+        border-radius: 5px;
+
+        transition: all .5s;
+      }
+    
+      
+    
+
+        .card-icon img{
+            border: 5px solid rgb(104, 104, 104);
+            padding: 20px;
+            border-radius: 50px;
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+            
+            
+        }
+
+        .card-title h2{
+            text-align: center;
+            background-color: #616062;
+            padding: 8px;
+            margin: 25px 0;
+            color: white;
+        }
+
+        .card-description{
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .card-description ol li{
+            margin: 8px 0 ;
+            
+        }
+
+        .card:hover{
+            box-shadow: 1px 4px 2px 3px black;
+            
+        }
+
+
+        .skill-contant{
+            padding-right: 20px;
+            /* border: #062D31 solid 1px; */
+        }
+
+        .skill-contant li{
+            list-style: none;
+            margin: 5px 0 25px 2px;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            
+        }
+
+        .skill-contant li::before{
+            content: "";
+            width: 100%;
+            background-color: rgb(86,86,153, .5);
+            height: 10px;
+            position: absolute;
+            top: calc(100% + 10px);
+            border-radius: 1000px;
+        }
+
+        .skill-contant li::after{
+            content: "";
+            width: 0%;
+            background-color: rgb(86,86,153, .5);
+            height: 10px;
+            position: absolute;
+            top: calc(100% + 10px);
+            /* left must be 0, otherwise animation bar not work from start  */
+            left: 0;  
+            border-radius: 1000px;
+
+
+            animation-timing-function: linear;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 5;
+            
+        }
+
+       
+        .skill-contant li.html::after{
+                animation-name: html;
+        }
+
+      
+        @keyframes html{
+            to{ 
+                width: 90%;
+            }
+        }
+
+        .skill-contant li.css::after{
+            animation-name: css;
+        }
+
+  
+        @keyframes css{
+        to{
+            width: 80%;
+            }
+        }
+
+     
+        .skill-contant li.bootstrap::after{
+             animation-name: bootstrap;
+        }
+
+
+        @keyframes bootstrap{
+        to{
+             width: 85%;
+             }
+        }
+
+ 
+        .skill-contant li.javascript::after{
+            animation-name: javascript;
+        }       
+
+
+        @keyframes javascript{
+        to{
+            width: 80%;
+             }
+        }
+
+
+        .skill-contant li.githab::after{
+             animation-name: githab;
+        }
+
+
+        @keyframes githab{
+        to{
+            width: 70%;
+            }
+        }
+
+
+        .skill-contant li.react::after{
+            animation-name: react;
+        }
+
+
+        @keyframes react{
+        to{
+            width: 75%;
+            }
+        }
+
+        .skill-contant li.node::after{
+            animation-name: node;
+        }
+
+
+        @keyframes node{
+        to{
+            width: 90%;
+            }
+        }
+
+        .skill-contant li.express::after{
+            animation-name: express;
+        }
+
+
+        @keyframes express{
+        to{
+            width: 75%;
+            }
+        }
+
+
+        .professional-experience::after{
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+       /* <!-- Wrok Experies Ends from here --> */
+
+
+        /* <!-- Achive-contact starts from here --> */
+
+
+
+
+        .achivement{
+            padding: 40px 30px 30px 60px;
+            background-color: #39A1AD;
+            color: white;
+            
+
+        }
+
+        .achivement h2{
+            text-align: center;
+        }
+
+        .achivement p{
+            margin: 20px 5px;
+        }
+
+
+        .contact{
+            padding: 40px 50px 30px 60px;
+            background-color: #39A1AD;
+            color: white;
+            text-align: center;
+            
+        }
+
+        .contact h2{
+            text-align: center;
+        }
+
+       .contact input, textarea{
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        margin: 5px 0;
+        text-align: center;
+       }
+
+   
+
+       .contact-description button{
+        border: none;
+        padding: 7px 15px;
+        border-radius: 5px;
+       
+        margin: 10px 10px;
+      
+       }
+
+       .contact button:hover{
+        background-color: gainsboro;
+       }
+
+
+       .contact-link{
+        padding: 40px 30px 30px 60px;
+        background-color: #39A1AD;
+        color: white;
+       }
+
+       .contact-link h2{
+        text-align: center;
+       }
+
+       .link-description{
+        margin: 50px 5px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+       
+        justify-content:center
+       }
+
+       .link-description a{
+        list-style: none;
+        margin: 10px 50px;
+        padding: 10px;
+        font-size: 20px;
+        /* border: #A59D9F solid 1px; */
+        background-color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all ease .7s;
+       }
+
+       .fa-facebook{
+        color: #3b5998;
+       }
+
+       .fa-skype{
+        color: #00aff0 ;
+       }
+
+       .fa-twitter{
+        color: #00acee     ;
+       }
+
+       .fa-youtube{
+        color: #FF0000     ;
+       }
+
+       .fa-github{
+        color: #171515      ;
+       }
+
+       .fa-instagram{
+        color:   #d62976      ;
+       }
+
+
+       .link-description a:hover{
+        background-color: gray;
+       }
+
+
+       .achivement-contact::after{
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+/* <!-- Achive-contact Ends from here --> */
+
+
+
+      /* Footer Starts Here */
+
+      .footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .footer-manu a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        font-size: 1rem;
+        transition: all ease .10s;
+        display: block;
+      }
+
+      .footer-manu a:hover{
+        color: gray;
+      }
+
+      .footer-description{
+        font-size: .7rem;
+      }
+
+      .footer::after{
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+
+
+/* Footer Ends Here */
+
+
+
+
+
+
+
+
+
+        
